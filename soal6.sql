@@ -28,5 +28,3 @@ INSERT INTO Cashier(nama) VALUES ('Lukman Hadi');
 INSERT INTO Product(nama, price, id_category, id_cashier) VALUES ('Latte','10000','2','1');
 INSERT INTO Product(nama, price, id_category, id_cashier) VALUES ('Cake','20000','1','2');
 INSERT INTO Product(nama, price, id_category, id_cashier) VALUES ('Apem','45000','1','3');
-
-SELECT product.id, cashier.cashier_name, product.name, category.category_name, product.price FROM (product INNER JOIN cashier ON product.id_cashier=cashier.id) INNER JOIN category ON product.id_category=category.id;
