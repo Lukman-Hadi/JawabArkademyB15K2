@@ -14,7 +14,7 @@ function BagiArray(arr,pembagi){
             if((length-index)-pembagi == 1){
                 isi = arr.slice(index);
                 tempArray.push(isi);
-                index = pembagi + 1;
+                index += pembagi;
             }else{
                 isi = arr.slice(index,index+pembagi);
                 tempArray.push(isi);
