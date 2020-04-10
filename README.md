@@ -44,5 +44,5 @@ Disini saya menggunakan PHP framework laravel dan bootstrap CDN
 untuk konfigurasinya ketikan perintah "php artisan key:generate" lalu "php artisan serve" untuk menjalankan aplikasi
 
 Tampilan HOME
-  ![tampilan home](https://https://github.com/Lukman-Hadi/JawabArkademyB15K2/blob/master/ss.png)
+  ![tampilan home](https://github.com/Lukman-Hadi/JawabArkademyB15K2/blob/master/ss.png)
 
